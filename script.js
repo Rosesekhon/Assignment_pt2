@@ -1,4 +1,3 @@
-/* This file is where all your work should go for Assignment 2.  Please remove this comment. */
 
 /* INDEX PAGE #1*/
 function cleanUpIndex(){
@@ -11,7 +10,7 @@ function cleanUpIndex(){
 /* INDEX #2*/
 function createSingleIndex(single_obj){
     return`
-        <a href="page3.html">
+        <a href="index.html">
             <div class="contact">
                 <p> ${single_obj.name}</p>
             </div>
@@ -56,7 +55,7 @@ function cleanUpView(){
 
 function renderView(single_contact){
   return`
-        <a href = "page2.html">
+        <a href = "page3.html">
             <div class ="contactinfo">
                 <p> ${single_contact.name}</p>
             </div>
@@ -65,9 +64,6 @@ function renderView(single_contact){
   `
 
 }
-
-
-
 
 
 /* CREATE PAGE #1*/
@@ -80,7 +76,17 @@ function cleanUpCreate(){
 }
 
 
-
 /*  CREATE #2 */
+
+function renderCreate(single_edit){
+    return`
+        <a href ="page2.html">
+            <div class = "contactedit">
+                <p> ${single_edit.name}</p>
+            </div>
+        </a>
+    `
+}
+
 
 
