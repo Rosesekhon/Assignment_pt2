@@ -45,21 +45,18 @@ const contactList = [
 
 /* VEIW PAGE #1*/
 
-function cleanUpCreate(){
+function cleanUpView(){
     const element = document.querySelectorAll(".contactinfo")
     for (let contactinfo of element){
         contactinfo.remove()
     }
 }
 
-
-
-
-
-
-
 /* VEIW #2 */
 
+function renderView(single_contact){
+
+}
 
 
 
@@ -67,7 +64,12 @@ function cleanUpCreate(){
 
 /* CREATE PAGE #1*/
 
-
+function cleanUpCreate(){
+    const element = document.querySelectorAll(".contactedit")
+    for (let contactedit of element){
+        contactedit.remove()
+    }
+}
 
 
 
