@@ -55,6 +55,14 @@ function cleanUpView(){
 /* VEIW #2 */
 
 function renderView(single_contact){
+  return`
+        <a href = "page2.html">
+            <div class ="contactinfo">
+                <p> ${single_contact.name}</p>
+            </div>
+        </a>
+
+  `
 
 }
 
