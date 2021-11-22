@@ -47,8 +47,8 @@ const contactList = [
 
 function cleanUpCreate(){
     const element = document.querySelectorAll(".contactinfo")
-    while (parent.firstChild){
-        parent.firstChild.remove()
+    for (let contactinfo of element){
+        contactinfo.remove()
     }
 }
 
